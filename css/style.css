@@ -1,0 +1,493 @@
+* { 
+    margin: 0px; 
+    padding: 0px; 
+    font-family: 'Racing Sans One', cursive;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3, h4, h5, h6, p, ul { 
+    padding: 0px; 
+    margin: 0px; }
+.header {
+     background-image: url("../images/bicycle-1-800x800.jpg"); 
+     background-position: center center; 
+     background-repeat: no-repeat; 
+     background-size: cover; 
+     min-height: 110vh; }
+.header::after {
+     content: ""; 
+     position: absolute; 
+     top: 0px; 
+     left: 0px; 
+     height: 110%; 
+     width: 50%; 
+     background: rgba(0, 0, 0, 0.55); 
+     z-index: 0; 
+    }
+.header::before { 
+    content: ""; 
+    position: absolute; 
+    top: 0px; 
+    right: 0px; 
+    height: 110%; 
+    width: 50%; 
+    background: rgba(152, 52, 49, 0.58); 
+}
+.navbar-nav { 
+    z-index: 99; 
+}
+.navbar-light .navbar-brand { 
+    color: rgba(0, 0, 0, 0.9); 
+    z-index: 1; 
+}
+.nav_btn { 
+    z-index: 1; 
+}
+.navbar-light .navbar-nav .nav-link { 
+    color: rgb(255, 255, 255); t
+    ext-align: center; 
+    align-items: center; 
+    margin-right: 30px; 
+}
+.navbar-light .navbar-nav .nav-link:hover { 
+    color: red; 
+}
+.shop_now { 
+    margin-left: 80px; 
+}
+.nav_btn button { 
+    padding: 10px 20px; 
+    border: aliceblue; 
+    transition: all 0.5s ease-in-out 0s; 
+}
+.nav_btn button:hover { 
+    background-color: rgb(0, 0, 0); 
+    color: red; 
+}
+.header_content { 
+    z-index: 1; 
+}
+.header_content h2 { 
+    font-family: 'Racing Sans One', cursive;
+    color: rgb(255, 255, 255); 
+    margin-left: 15%; 
+}
+.header_content h1 {
+    font-family: 'Racing Sans One', cursive; 
+    color: rgb(255, 255, 255); 
+    margin-left: 15%; 
+    font-size: 81px; 
+}
+.header_content h3 { 
+    font-family: 'Racing Sans One', cursive;
+    color: rgb(255, 255, 255); 
+    margin-left: 15%; 
+}
+.header_content ul { 
+    color: rgb(255, 255, 255); 
+}
+.header_content li { 
+    margin-left: 15%; 
+    list-style: none; 
+    margin-top: 10px; 
+}
+.header_content li i { 
+
+}
+.btn-shop { 
+    color: rgb(255, 255, 255); 
+    border: 1px solid rgb(255, 255, 255); 
+    margin-left: 15%; 
+    margin-top: 5%; 
+    padding: 10px 30px; 
+    border-radius: inherit; 
+}
+.btn-shop:hover { 
+    color: red; 
+    background-color: rgb(0, 0, 0); 
+}
+.picture_content p { 
+    margin-top: 10px; 
+    color: rgb(148, 149, 154); 
+}
+.picture_content h5 {
+
+ }
+.new_arrival h1{
+    font-family: 'Racing Sans One', cursive;
+}
+.picture_content h6 { 
+    margin-top: 10px; 
+}
+.stars { 
+    color: rgb(175, 12, 12); 
+}
+.parallax-window { 
+    min-height: 400px; 
+    background: transparent; 
+}
+.discover { 
+    background-image: url("../images/parallax_1.jpg"); 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-attachment: fixed; 
+    position: relative; 
+    z-index: 0;
+    min-height: 90vh; 
+}
+.collection::before { 
+    content: ""; 
+    position: absolute; 
+    height: 100%; 
+    width: 100%; 
+    background: rgba(0, 0, 0, 0.23); 
+    top: 0px; 
+    left: 0px; 
+    z-index: -1; }
+.discover h2 { 
+    color: rgb(255, 255, 255);
+    font-family: 'Racing Sans One', cursive;
+}
+.discover h1 { 
+    color: rgb(255, 255, 255); 
+    margin-top: 20px;
+    font-family: 'Racing Sans One', cursive;
+}
+.discover p {
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.collection { display: flex; overflow: hidden; justify-content: space-between; }
+.collection ul { }
+.collection ul li { color: rgb(255, 255, 255); list-style: none; margin-top: 20px; }
+.collection ul li i { color: red; }
+.explore_btn { margin-top: 20px; border: none; }
+.explore_now { }
+.explore_btn button { height: 50px; width: 150px; background: red; border: 0px solid red; transition: all 0.5s ease-in-out 0s; }
+.explore_btn button:hover { background-color: rgb(0, 0, 0); color: red; }
+.city_bikes { background-image: url("../images/parallax_3.jpg"); background-position: center center; background-repeat: no-repeat; background-size: cover; background-attachment: fixed; position: relative; z-index: 0; min-height: 90vh; }
+.city_bikes::before { content: ""; position: absolute; height: 100%; width: 100%; background: rgba(0, 0, 0, 0.23); top: 0px; left: 0px; z-index: -1; }
+.city_bikes h2 { 
+    color: rgb(255, 255, 255);
+    font-family: 'Racing Sans One', cursive; 
+}
+.city_bikes h1 { 
+    color: rgb(255, 255, 255); 
+    margin-top: 20px;
+    font-family: 'Racing Sans One', cursive;
+}
+.city_bikes p { color: rgb(255, 255, 255); margin-top: 20px; }
+.city_collection { display: flex; overflow: hidden; justify-content: space-between; }
+.city_collection ul { }
+.city_collection ul li { color: rgb(255, 255, 255); list-style: none; margin-top: 20px; }
+.city_collection ul li i { color: red; }
+.speciality_bikes { background-image: url("../images/parallax_2.jpg"); background-position: center center; background-repeat: no-repeat; background-size: cover; background-attachment: fixed; position: relative; z-index: 0; min-height: 90vh; }
+.speciality_bikes::before { content: ""; position: absolute; height: 100%; width: 100%; background: rgba(0, 0, 0, 0.23); top: 0px; left: 0px; z-index: -1; }
+.speciality_bikes h2 {color: rgb(255, 255, 255);font-family: 'Racing Sans One', cursive;}
+.speciality_bikes h1 {color: rgb(255, 255, 255);margin-top: 20px;font-family: 'Racing Sans One', cursive;}
+.speciality_bikes p {color: rgb(255, 255, 255);margin-top: 20px;font-family: 'Raleway', sans-serif;}
+.special_collection {display: flex;overflow: hidden;justify-content: space-between;font-family: 'Raleway', sans-serif;}
+.special_collection ul { }
+.special_collection ul li { color: rgb(255, 255, 255); list-style: none; margin-top: 20px; }
+.special_collection ul li i { color: red; }
+.kryo_part { position: relative; }
+.kryo_part h1 {font-family: 'Racing Sans One', cursive;}
+.item { position: relative; }
+.item::before { content: ""; position: absolute; left: 0px; bottom: 0px; width: 100%; height: 0%; transition: all 0.4s ease-in-out 0s; background: linear-gradient(rgba(76, 76, 76, 0) 0%, rgba(75, 75, 75, 0) 1%, rgb(19, 19, 19) 100%); }
+.item:hover::before { height: 100%; }
+.item_content { position: absolute; left: 10%; transform: translate(0px, 0px); opacity: 0; bottom: 10%; transition: all 0.4s ease-in-out 0s; color: rgb(255, 255, 255); }
+.item:hover .item_content { bottom: 15%; opacity: 1; }
+.video video { position: relative; }
+.video button { position: absolute; margin-top: -12%; margin-left: 5%; transform: translate(10px, 10px); border: 2px solid rgb(255, 255, 255); height: 50px; width: 60px; border-radius: 50%; justify-content: center; align-items: center; background: transparent; color: rgb(255, 255, 255); }
+.icon_text { position: absolute; color: rgb(255, 255, 255); margin-top: 35%; margin-left: 5%; }
+.join_content { }
+.join_content h2 {font-family: 'Racing Sans One', cursive;}
+.join_content p {margin-top: 20px;font-family: 'Racing Sans One', cursive;}
+.explore_button { margin-top: 20px; border: none; }
+.explore_how { }
+.explore_button button { height: 60px; width: 250px; background: red; border: 0px solid red; margin-left: 70%; transition: all 0.5s ease-in-out 0s; }
+.explore_button button:hover { 
+    background-color: rgb(0, 0, 0); 
+    color: red; 
+}
+.all_new {
+    background-image: url("../images/bicycle-1-800x800.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 0;
+    min-height: 110vh;}
+.all_new { 
+    position: relative;
+}
+.all_new h2 {
+    color: rgb(255, 255, 255);
+    font-family: 'Racing Sans One', cursive;
+    }
+.all_new h1 {
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    font-family: 'Racing Sans One', cursive;
+    }
+.all_new p { 
+    color: rgb(255, 255, 255); margin-top: 15px; }
+.exrta_row { 
+    color: rgb(255, 255, 255); }
+.contents_bike {
+
+}
+.contents_bike h4 { 
+
+}
+.contents_bike p { 
+
+}
+.all_new::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: -moz-linear-gradient(top,  rgba(76,76,76,0.73) 0%, rgba(44,44,44,0.89) 58%, rgba(19,19,19,1) 100%);
+    background: -webkit-linear-gradient(top,  rgba(76,76,76,0.73) 0%,rgba(44,44,44,0.89) 58%,rgba(19,19,19,1) 100%); 
+    background: linear-gradient(to bottom,  rgba(76,76,76,0.73) 0%,rgba(44,44,44,0.89) 58%,rgba(19,19,19,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ba4c4c4c', endColorstr='#131313',GradientType=0 );
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+.straignt_line{display: block;border: 1px solid #e9ecefbf transparent;border: 1px transparent #fff;border: 1px solid;}
+.all_in{
+    background: #161616;
+    min-height: 10vh;
+}
+.footer_content{
+
+}
+.footer_content h5{color: #fff;font-weight: 100;}
+.social_link{
+}
+.social_link ul{/* list-style: none; *//* justify-content: end; */justify-items: end;list-style: none;margin-left: 50%;}
+.social_link ul li{display: contents;}
+.social_link ul li a{color: #fff;margin-left: 20px;}
+.join{
+    
+}
+.join h1{
+    font-family: 'Racing Sans One', cursive;
+}
+
+
+
+
+
+
+/* Please ❤ this if you like it! */
+
+
+
+
+
+
+:root {
+	font-size: 20px;
+	--red: #da2c4d;
+	--yellow: #f8ab37;
+	--green: #2ecc71;
+	--white: #ffffff;
+	--grey-light: #f2f7f9;
+	--grey: #ecedf3;
+	--black: #080808;
+	--black-blue: #1f2029;
+	--black-blue-light: #353746;
+	--black-blue-light-2: #404255;
+	--black-blue-light-3: #4b4d64;
+	--black-light: #424455;
+}
+.progress-wrap {
+	position: fixed;
+	right: 50px;
+	bottom: 50px;
+	height: 46px;
+	width: 46px;
+	cursor: pointer;
+	display: block;
+	border-radius: 50px;
+	box-shadow: inset  0 0 0 2px rgba(255,255,255,0.2);
+	z-index: 10000;
+	opacity: 0;
+	visibility: hidden;
+	transform: translateY(15px);
+	-webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
+.progress-wrap.active-progress {
+	opacity: 1;
+	visibility: visible;
+	transform: translateY(0);
+}
+.progress-wrap::after {
+	position: absolute;
+	font-family: 'unicons';
+	content: '\e84b';
+	text-align: center;
+	line-height: 46px;
+	font-size: 24px;
+	color: var(--grey);
+	left: 0;
+	top: 0;
+	height: 46px;
+	width: 46px;
+	cursor: pointer;
+	display: block;
+	z-index: 1;
+	-webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
+.progress-wrap:hover::after {
+	opacity: 0;
+}
+.progress-wrap::before {
+	position: absolute;
+	font-family: 'unicons';
+	content: '\e84b';
+	text-align: center;
+	line-height: 46px;
+	font-size: 24px;
+	opacity: 0;
+	background-image: linear-gradient(298deg, var(--red), var(--yellow));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	left: 0;
+	top: 0;
+	height: 46px;
+	width: 46px;
+	cursor: pointer;
+	display: block;
+	z-index: 2;
+	-webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
+.progress-wrap:hover::before {
+	opacity: 1;
+}
+.progress-wrap svg path { 
+	fill: none; 
+}
+.progress-wrap svg.progress-circle path {
+	stroke: var(--grey);
+	stroke-width: 4;
+	box-sizing:border-box;
+	-webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
+body.light .progress-wrap {
+	box-shadow: inset  0 0 0 2px rgba(0,0,0,0.2);
+}
+body.light .progress-wrap::after {
+	color: var(--black-blue);
+}
+body.light .progress-wrap svg.progress-circle path {
+	stroke: var(--black-blue);
+}
+.switch,
+.circle {
+	-webkit-transition: all 300ms linear;
+	transition: all 300ms linear; 
+} 
+.switch {
+	width: 80px;
+	height: 4px;
+	border-radius: 27px;
+	background-image: linear-gradient(298deg, var(--red), var(--yellow));
+	position: fixed;
+	right: 50px;
+	top: 75px;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	opacity: 1;
+  z-index: 33333;
+    transition: all 300ms linear;
+}
+.circle {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: -5px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: var(--black-blue-light-3);
+	box-shadow: 0 4px 4px rgba(26,53,71,0.25), 0 0 0 1px rgba(26,53,71,0.07);
+	animation: border-transform 10s linear infinite alternate forwards;
+}
+.circle:hover {
+	box-shadow: 0 8px 8px rgba(26,53,71,0.25), 0 0 0 1px rgba(26,53,71,0.07);
+}
+.circle:before {
+	position: absolute;
+	font-family: 'unicons';
+	content: '\eac1';
+	top: 0;
+	left: 0;
+	z-index: 2;
+	font-size: 20px;
+	line-height: 40px;
+	text-align: center;
+	width: 100%;
+	height: 40px;
+	opacity: 1;
+	color: var(--grey);
+	-webkit-transition: all 300ms linear;
+	transition: all 300ms linear; 
+}
+.circle:after {
+	position: absolute;
+	font-family: 'unicons';
+	content: '\eb8f';
+	top: 0;
+	left: 0;
+	z-index: 2;
+	font-size: 20px;
+	line-height: 40px;
+	text-align: center;
+	width: 100%;
+	height: 40px;
+	color: var(--yellow);
+	opacity: 0;
+	-webkit-transition: all 300ms linear;
+	transition: all 300ms linear; 
+}
+.switched {
+}
+.switched .circle {
+	left: 45px;
+	box-shadow: 0 4px 4px rgba(26,53,71,0.25), 0 0 0 1px rgba(26,53,71,0.07);
+	background: var(--black-blue);
+}
+.switched .circle:hover {
+	box-shadow: 0 8px 8px rgba(26,53,71,0.25), 0 0 0 1px rgba(26,53,71,0.07);
+}
+.switched .circle:before {
+	opacity: 0;
+}
+.switched .circle:after {
+	opacity: 1;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.65;
+	overflow-x: hidden;
+	letter-spacing: 0.2px;
+	-webkit-transition: all 200ms linear;
+	transition: all 200ms linear; 
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+}
